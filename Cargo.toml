@@ -1,0 +1,11 @@
+[package]
+name = "mldsa87_wasm"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+roblox-rs = { git = "https://github.com/roblox-rs/bindings.git", branch = "master" }
+libcrux-ml-dsa = { git = "https://github.com/cryspen/libcrux.git", package = "libcrux-ml-dsa" }
